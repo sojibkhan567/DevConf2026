@@ -1,0 +1,125 @@
+/*================================
+    Assignment-01: Basic website template design
+    Author: Md. Shojib Hossain
+    Date: 09.07.2026
+==================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*======== Common Css ==========*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 10px 20px;
+  color: #ffff;
+  background-color: #1d4ed8;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/*==== Navbar CSS Start =====*/
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+header nav .nav-links li a {
+  color: #575757;
+  text-decoration: none;
+}
+
+/*==== Hero Section CSS Start =====*/
+.hero-section {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-section .hero-content {
+  max-width: 700px;
+  padding-bottom: 40px;
+}
+.hero-section .hero-content .hero-title {
+  color: #ffff;
+  font-size: 65px;
+}
+.hero-section .hero-content .hero-description {
+  color: #ffff;
+  margin-bottom: 170px;
+  padding: 15px 40px;
+  line-height: 25px;
+}
+.hero-section .hero-content .hero-btn {
+  padding: 15px 40px;
+}
+
+/*====== Speakers Section CSS Start =======*/
+.speaker-section {
+  padding: 80px 0px;
+}
+.speaker-section .section-title h2 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+.speaker-section .speaker-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.speaker-section .speaker-content .speaker-card {
+  overflow: hidden;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+}
+.speaker-section .speaker-content .speaker-card .card-img{
+  width: 100%;
+  object-fit: cover;
+}
+.speaker-section .speaker-content .speaker-card-content {
+    padding: 35px;
+}
+.speaker-section .speaker-content .speaker-card-content h3 {
+    color: #2563EB;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+.speaker-section .speaker-content .speaker-card-content h2 {
+    color: #0D1B2A;
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+.speaker-section .speaker-content .speaker-card-content p {
+    color: #575757;
+    font-size: 18px;
+}
