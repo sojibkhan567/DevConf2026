@@ -24,6 +24,16 @@ a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+button {
+  padding: 10px 20px;
+  color: #2563eb;
+  background-color: transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid #2563eb;
+}
+
 .btn {
   padding: 10px 20px;
   color: #ffff;
@@ -40,11 +50,13 @@ header nav {
   align-items: center;
   padding: 20px 0;
 }
+
 header nav .nav-links {
   display: flex;
   list-style: none;
   gap: 35px;
 }
+
 header nav .nav-links li a {
   color: #575757;
   text-decoration: none;
@@ -65,20 +77,24 @@ header nav .nav-links li a {
   align-items: center;
   text-align: center;
 }
+
 .hero-section .hero-content {
   max-width: 700px;
   padding-bottom: 40px;
 }
+
 .hero-section .hero-content .hero-title {
   color: #ffff;
   font-size: 65px;
 }
+
 .hero-section .hero-content .hero-description {
   color: #ffff;
   margin-bottom: 170px;
   padding: 15px 40px;
   line-height: 25px;
 }
+
 .hero-section .hero-content .hero-btn {
   padding: 15px 40px;
 }
@@ -87,39 +103,259 @@ header nav .nav-links li a {
 .speaker-section {
   padding: 80px 0px;
 }
+
 .speaker-section .section-title h2 {
+  color: #0d1b2a;
   font-size: 50px;
   text-align: center;
   padding-bottom: 45px;
 }
+
 .speaker-section .speaker-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+
 .speaker-section .speaker-content .speaker-card {
   overflow: hidden;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   border-radius: 8px;
 }
-.speaker-section .speaker-content .speaker-card .card-img{
+
+.speaker-section .speaker-content .speaker-card .card-img {
   width: 100%;
   object-fit: cover;
 }
+
 .speaker-section .speaker-content .speaker-card-content {
-    padding: 35px;
+  padding: 35px;
 }
+
 .speaker-section .speaker-content .speaker-card-content h3 {
-    color: #2563EB;
-    margin-bottom: 12px;
-    text-transform: capitalize;
+  color: #2563eb;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
+
 .speaker-section .speaker-content .speaker-card-content h2 {
-    color: #0D1B2A;
-    margin-bottom: 12px;
-    font-size: 25px;
+  color: #0d1b2a;
+  margin-bottom: 12px;
+  font-size: 25px;
 }
+
 .speaker-section .speaker-content .speaker-card-content p {
-    color: #575757;
-    font-size: 18px;
+  color: #575757;
+  font-size: 18px;
+}
+
+/*====== Pricing Section CSS Start =======*/
+.pricing-section {
+  padding: 80px 0px;
+}
+
+.pricing-section .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pricing-section .section-title h2 {
+  color: #0d1b2a;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.pricing-section .section-title p {
+  color: #575757;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pricing-section .pricing-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.pricing-section .pricing-content .pricing-card {
+  padding: 40px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-title h3 {
+  color: #888888;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-title h2 {
+  color: #0d1b2a;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 6px;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-title p {
+  color: #888888;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-content ul {
+  padding: 16px;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-content ul li {
+  padding: 5px 0px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-content ul li::marker {
+  color: #2563eb;
+}
+
+.pricing-section .pricing-content .pricing-card .pricing-card-content button {
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/** active card */
+.pricing-section .pricing-content .pricing-card.active {
+  background-color: #0d1b2a;
+}
+
+.pricing-section .pricing-content .pricing-card.active .pricing-card-title h3 {
+  color: #ffffff;
+}
+
+.pricing-section .pricing-content .pricing-card.active .pricing-card-title h2 {
+  color: #ffffff;
+}
+
+.pricing-section .pricing-content .pricing-card.active .pricing-card-title p {
+  color: #ffffff;
+}
+
+.pricing-section .pricing-content .pricing-card.active .pricing-card-content ul li {
+  color: #ffffff;
+}
+
+.pricing-section .pricing-content .pricing-card.active .pricing-card-content button {
+  color: #ffffff;
+  background-color: #2563eb;
+}
+
+/**====== Event gallery Section CSS Start ====*/
+.gallery-section {
+  padding: 80px 0px;
+}
+
+.gallery-section .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery-section .section-title h2 {
+  color: #0d1b2a;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.gallery-section .section-title p {
+  color: #575757;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.gallery-section .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-section .gallery-grid .horizontal {
+  grid-column: auto / span 2;
+}
+.gallery-section .gallery-grid .vertical {
+  grid-row: auto / span 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: .4s;
+}
+
+/**====== Footer Section CSS Start ====*/
+footer {
+  background: #0f172a;
+  color: #fff;
+  padding: 35px 0 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer-logo img {
+  width: 36px;
+}
+
+.footer-logo h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer hr {
+  margin: 30px 0 20px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 15px;
+  color: #cbd5e1;
 }
