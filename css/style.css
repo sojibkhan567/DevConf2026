@@ -284,35 +284,36 @@ header nav .nav-links li a {
   overflow: hidden;
 }
 
-/* .gallery-section .gallery-grid .horizontal {
-  grid-column: auto / span 2;
-} */
-
-.item-1 {
+.gallery-section .gallery-grid .item-1 {
   grid-column: span 2;
   grid-row: span 2;
 }
-.item-2 {
+
+.gallery-section .gallery-grid .item-2 {
   grid-column: span 1;
 }
-.item-3 {
+
+.gallery-section .gallery-grid .item-3 {
   grid-column: span 1;
 }
-.item-4 {
+
+.gallery-section .gallery-grid .item-4 {
   grid-column: span 1;
 }
-.item-5 {
+
+.gallery-section .gallery-grid .item-5 {
   grid-column: span 2;
 }
 
-.item-6 {
+.gallery-section .gallery-grid .item-6 {
   grid-column: span 2;
 }
 
-.item-7 {
+.gallery-section .gallery-grid .item-7 {
   grid-column: span 1;
 }
-.item-8 {
+
+.gallery-section .gallery-grid .item-8 {
   grid-row: span 2;
 }
 
@@ -327,6 +328,7 @@ header nav .nav-links li a {
   text-align: center;
   padding-top: 50px;
 }
+
 .gallery-section .gallery-btn a {
   padding: 10px 50px;
 }
